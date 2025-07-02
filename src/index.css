@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: theme("fontFamily.mono");
+    @apply bg-gray-900 text-gray-100;
+  }
+}
