@@ -1,69 +1,46 @@
-# React + TypeScript + Vite
+# DiccionarioDev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to DiccionarioDev! This is a web application built to be the ultimate dictionary for developers. Here you can find definitions for many common programming terms.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*   **Landing Page:** A welcoming landing page that introduces the project.
+*   **Term Listing:** A dedicated page to browse all the programming terms.
+*   **Categorized Terms:** Terms are organized by categories like "Web Development", "Data Structures", "OOP", etc.
+*   **Filter by Category:** You can click on a term's category to see all other terms in the same category.
+*   **Minimalistic Design:** The UI is clean, minimalistic, and uses a pleasant pastel color palette.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+*   **React:** A JavaScript library for building user interfaces.
+*   **Vite:** A fast build tool for modern web development.
+*   **TypeScript:** A typed superset of JavaScript.
+*   **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
+*   **React Router:** For handling routing within the application.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Getting Started
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+To get a local copy up and running, follow these simple steps.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Prerequisites
+
+You need to have `pnpm` installed. If you don't have it, you can install it via `npm`:
+```sh
+npm install -g pnpm
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Installation & Running
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1.  Clone the repo
+    ```sh
+    git clone https://github.com/your_username/diccionariodev.git
+    ```
+2.  Install PNPM packages
+    ```sh
+    pnpm install
+    ```
+3.  Run the development server
+    ```sh
+    pnpm run dev
+    ```
+The application will be available at `http://localhost:5173` (or another port if 5173 is busy).

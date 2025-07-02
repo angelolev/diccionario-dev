@@ -11,7 +11,9 @@ const TermsPage = () => {
 
   return (
     <div className="p-4 max-w-7xl mx-auto">
-      <h1 className="text-2xl font-bold mb-4">Términos de Programación</h1>
+      <h1 className="text-3xl font-bold my-12 text-center">
+        Términos de Programación
+      </h1>
       {selectedCategory && (
         <button
           className="mb-4 px-4 py-2 bg-blue-500 cursor-pointer rounded-full"
