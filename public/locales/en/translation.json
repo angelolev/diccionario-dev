@@ -1,0 +1,157 @@
+{
+  "landingPage": {
+    "title": "Dev Dictionary",
+    "description": "The ultimate dictionary for developers. Find definitions for all the programming terms you need.",
+    "start": "Start"
+  },
+  "termsPage": {
+    "title": "Programming Terms",
+    "showAll": "Show All"
+  },
+  "terms": {
+    "1": {
+      "term": "Algorithm",
+      "definition": "A step-by-step procedure or formula for solving a problem. In programming, algorithms are used to perform calculations, data processing, and automated reasoning tasks.",
+      "category": "Algorithms",
+      "example": "Binary search algorithm to find an element in a sorted array"
+    },
+    "2": {
+      "term": "API",
+      "definition": "Application Programming Interface: a set of rules and protocols that allows different software applications to communicate with each other.",
+      "category": "Web Development",
+      "example": "REST API endpoints like GET /users or POST /orders"
+    },
+    "3": {
+      "term": "Array",
+      "definition": "A data structure that stores multiple elements of the same type in a sequential manner, accessible by index positions.",
+      "category": "Data Structures",
+      "example": "let numbers = [1, 2, 3, 4, 5]"
+    },
+    "4": {
+      "term": "Boolean",
+      "definition": "A data type that can only have one of two values: true or false. Named after mathematician George Boole.",
+      "category": "Data Types",
+      "example": "let isActive = true; let isComplete = false;"
+    },
+    "5": {
+      "term": "Bug",
+      "definition": "An error, flaw, or fault in a computer program that causes it to produce incorrect or unexpected results.",
+      "category": "Debugging",
+      "example": "Off-by-one error causing an array index out of bounds"
+    },
+    "6": {
+      "term": "Class",
+      "definition": "A blueprint or template for creating objects in object-oriented programming. It defines properties and methods that objects of that class will have.",
+      "category": "OOP",
+      "example": "class Car { constructor(brand, model) { this.brand = brand; this.model = model; } }"
+    },
+    "7": {
+      "term": "Compiler",
+      "definition": "A program that translates source code written in a high-level programming language into machine code or another programming language.",
+      "category": "Programming Concepts",
+      "example": "GCC compiler that converts C++ code to executable machine code"
+    },
+    "8": {
+      "term": "CSS",
+      "definition": "Cascading Style Sheets: a stylesheet language used to describe the presentation and styling of HTML documents.",
+      "category": "Web Development",
+      "example": ".button { background-color: blue; color: white; }"
+    },
+    "9": {
+      "term": "Database",
+      "definition": "An organized collection of information or structured data, typically stored electronically in a computer system and managed by a database management system (DBMS).",
+      "category": "Databases",
+      "example": "MySQL, PostgreSQL, MongoDB"
+    },
+    "10": {
+      "term": "Debugging",
+      "definition": "The process of finding and fixing errors or faults in a computer program's code.",
+      "category": "Debugging",
+      "example": "Using console.log() statements or breakpoints to trace program execution"
+    },
+    "11": {
+      "term": "Function",
+      "definition": "A reusable block of code that performs a specific task. Functions can accept input parameters and return output values.",
+      "category": "Programming Concepts",
+      "example": "function add(a, b) { return a + b; }"
+    },
+    "12": {
+      "term": "Git",
+      "definition": "A distributed version control system used to track changes in source code during software development.",
+      "category": "Tools",
+      "example": "git commit -m 'Add new feature' && git push origin main"
+    },
+    "13": {
+      "term": "HTML",
+      "definition": "HyperText Markup Language: the standard markup language used to create web pages and web applications.",
+      "category": "Web Development",
+      "example": "<h1>Hello World</h1><p>This is a paragraph.</p>"
+    },
+    "14": {
+      "term": "IDE",
+      "definition": "Integrated Development Environment: a software application that provides comprehensive facilities for software development, including a code editor, debugger, and build automation tools.",
+      "category": "Tools",
+      "example": "Visual Studio Code, IntelliJ IDEA, Eclipse"
+    },
+    "15": {
+      "term": "JavaScript",
+      "definition": "A high-level, interpreted programming language primarily used for web development to create interactive and dynamic web pages.",
+      "category": "Programming Languages",
+      "example": "document.getElementById('myButton').addEventListener('click', handleClick);"
+    },
+    "16": {
+      "term": "JSON",
+      "definition": "JavaScript Object Notation: a lightweight, text-based data interchange format that is easy for humans to read and write.",
+      "category": "Data Formats",
+      "example": "{ \"name\": \"John\", \"age\": 30, \"city\": \"New York\" }"
+    },
+    "17": {
+      "term": "Loop",
+      "definition": "A programming construct that repeatedly executes a block of code while a specified condition is true.",
+      "category": "Programming Concepts",
+      "example": "for (let i = 0; i < 10; i++) { console.log(i); }"
+    },
+    "18": {
+      "term": "Object",
+      "definition": "A data structure that contains data (properties) and code (methods). In object-oriented programming, objects are instances of classes.",
+      "category": "OOP",
+      "example": "let person = { name: 'Alice', age: 25, greet() { console.log('Hello!'); } }"
+    },
+    "19": {
+      "term": "React",
+      "definition": "A JavaScript library for building user interfaces, particularly web applications. It uses a component-based architecture and virtual DOM.",
+      "category": "Frameworks",
+      "example": "function Welcome(props) { return <h1>Hello, {props.name}!</h1>; }"
+    },
+    "20": {
+      "term": "Recursion",
+      "definition": "A programming technique where a function calls itself to solve a problem by breaking it down into smaller, similar subproblems.",
+      "category": "Algorithms",
+      "example": "function factorial(n) { return n <= 1 ? 1 : n * factorial(n - 1); }"
+    },
+    "21": {
+      "term": "SQL",
+      "definition": "Structured Query Language: a programming language designed for managing and manipulating relational databases.",
+      "category": "Databases",
+      "example": "SELECT * FROM users WHERE age > 18 ORDER BY name;"
+    },
+    "22": {
+      "term": "String",
+      "definition": "A data type used to represent text, consisting of a sequence of characters.",
+      "category": "Data Types",
+      "example": "let greeting = 'Hello, World!'; let name = \"Alice\";"
+    },
+    "23": {
+      "term": "Variable",
+      "definition": "A named storage location in computer memory that holds a value that can be changed during program execution.",
+      "category": "Programming Concepts",
+      "example": "let counter = 0; const PI = 3.14159; var message = 'Hello';"
+    },
+    "24": {
+      "term": "Framework",
+      "definition": "A pre-written code structure that provides a foundation for developing software applications, offering reusable components and standardized ways to build and deploy applications.",
+      "category": "Frameworks",
+      "example": "React, Angular, Vue.js for frontend; Express.js, Django, Rails for backend"
+    }
+  }
+}
